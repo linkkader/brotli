@@ -1123,7 +1123,12 @@ static BROTLI_BOOL CompressFiles(Context* context) {
   return BROTLI_TRUE;
 }
 
-int main(int argc, char** argv) {
+int main(){
+	printf("Hello World");
+	return (33);
+}
+
+int main2(int argc, char** argv) {
   Command command;
   Context context;
   BROTLI_BOOL is_ok = BROTLI_TRUE;
